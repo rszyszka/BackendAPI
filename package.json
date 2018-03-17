@@ -1,0 +1,10 @@
+{
+  "name": "Backend",
+  "version": "1.0.0",
+  "description": "projekt na Internet Engineering",
+  "main": "app.js",
+  "repository": "https://github.com/rszyszka/JS-Project.git",
+  "author": "Rafal Szyszka",
+  "license": "MIT",
+  "private": false
+}

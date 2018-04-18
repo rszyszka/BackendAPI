@@ -1,10 +1,35 @@
 {
-  "name": "Backend",
+  "name": "JS-Project",
   "version": "1.0.0",
   "description": "projekt na Internet Engineering",
   "main": "app.js",
   "repository": "https://github.com/rszyszka/JS-Project.git",
   "author": "Rafal Szyszka",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "bcrypt": "^1.0.3",
+    "dotenv-safe": "^5.0.1",
+    "express": "^4.16.2",
+    "jwt": "^0.2.0",
+    "mongodb": "^3.0.4",
+    "mongoose": "^5.0.10",
+    "passport": "^0.4.0",
+    "passport-http": "^0.3.0",
+    "passport-http-bearer": "^1.0.1",
+    "passport-jwt": "^4.0.0"
+  },
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon -r babel-register --inspect=5858 -i \"*.test.js\" ."
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "nodemon": "^1.17.2",
+    "source-map-support": "^0.5.4"
+  }
 }

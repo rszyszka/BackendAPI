@@ -1,9 +1,9 @@
 {
-  "name": "JS-Project",
+  "name": "JS-BackendAPI",
   "version": "1.0.0",
   "description": "projekt na Internet Engineering",
   "main": "app.js",
-  "repository": "https://github.com/rszyszka/JS-Project.git",
+  "repository": "https://github.com/rszyszka/JS-BackendAPI.git",
   "author": "Rafal Szyszka",
   "license": "MIT",
   "private": false,

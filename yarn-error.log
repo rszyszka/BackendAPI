@@ -1,8 +1,8 @@
 Arguments: 
-  D:\PROGRAMY\nodejs\node.exe D:\PROGRAMY\Yarn\bin\yarn.js dev
+  D:\PROGRAMY\nodejs\node.exe D:\PROGRAMY\Yarn\bin\yarn.js start
 
 PATH: 
-  D:\PROGRAMY\SIMULIA Abaqus\Commands;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\PROGRAMY\Git\cmd;D:\PROGRAMY\nodejs\;D:\PROGRAMY\XAMPP\php\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\PROGRAMY\Yarn\bin\;D:\PROGRAMY\MATLAB\R2014b\runtime\win64;D:\PROGRAMY\MATLAB\R2014b\bin;D:\PROGRAMY\MATLAB\R2014b\polyspace\bin;C:\Users\Szysz\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\PROGRAMY\XAMPP\php;C:\Users\Szysz\AppData\Roaming\npm;D:\PROGRAMY\MongoDB\Server\3.6\bin;C:\Users\Szysz\AppData\Local\Yarn\bin;
+  C:\Program Files\Mozilla Firefox;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\PROGRAMY\SIMULIA Abaqus\Commands;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\PROGRAMY\Git\cmd;D:\PROGRAMY\nodejs\;D:\PROGRAMY\XAMPP\php\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\PROGRAMY\Yarn\bin\;D:\PROGRAMY\MATLAB\R2014b\runtime\win64;D:\PROGRAMY\MATLAB\R2014b\bin;D:\PROGRAMY\MATLAB\R2014b\polyspace\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Szysz\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\PROGRAMY\XAMPP\php;C:\Users\Szysz\AppData\Roaming\npm;D:\PROGRAMY\MongoDB\Server\3.6\bin;C:\Users\Szysz\AppData\Local\Yarn\bin;
 
 Yarn version: 
   1.5.1
@@ -15,7 +15,7 @@ Platform:
 
 npm manifest: 
   {
-    "name": "JS-Project",
+    "name": "JS-BackendAPI",
     "version": "1.0.0",
     "description": "projekt na Internet Engineering",
     "main": "app.js",
@@ -3345,9 +3345,9 @@ Lockfile:
 
 Trace: 
   Error: Command failed.
-  Exit code: 3221225786
+  Exit code: 4294967295
   Command: C:\WINDOWS\system32\cmd.exe
-  Arguments: /d /s /c nodemon -r babel-register --inspect=5858 -i "*.test.js" .
+  Arguments: /d /s /c node .
   Directory: D:\NAUKA\Inżynieria Internetu\JS-Project
   Output:
   

@@ -1,4 +1,6 @@
 {
-    "apiUrl": "/api",
-    "authorsUrl": "/api/authors"
+    "authUrl": "/api/auth",
+    "booksUrl": "/api/books",
+    "authorsUrl": "/api/authors",
+    "usersUrl": "/api/users"
 }

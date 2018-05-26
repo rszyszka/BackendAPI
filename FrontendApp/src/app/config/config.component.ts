@@ -1,6 +1,6 @@
 import { ConfigService } from './../config.service';
 import { Component, OnInit } from '@angular/core';
-import { Config } from 'protractor';
+import { Config } from '../config';
 
 @Component({
   selector: 'app-config',
@@ -10,6 +10,7 @@ import { Config } from 'protractor';
 export class ConfigComponent implements OnInit {
 
   config: Config;
+  headers: string[];
 
   constructor(private configService: ConfigService) { }
 
@@ -19,9 +20,16 @@ export class ConfigComponent implements OnInit {
   showConfig() {
     this.configService.getConfig()
       .subscribe((data: Config) => this.config = {
-        apiUrl: data['apiUrl'],
-        authorsUrl: data['authorsUrl']
+        ...data
       });
   }
 
+  showConfigResponse() {
+    this.configService.getConfigResponse()
+      .subscribe(resp => {
+        const keys = resp.headers.keys();
+        this.headers = keys.map(key =>
+          '${key}: ${resp.headers.get(key)}');
+      });
+  }
 }

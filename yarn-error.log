@@ -1,8 +1,8 @@
 Arguments: 
-  D:\PROGRAMY\nodejs\node.exe D:\PROGRAMY\Yarn\bin\yarn.js start
+  D:\PROGRAMY\nodejs\node.exe D:\PROGRAMY\Yarn\bin\yarn.js install cors
 
 PATH: 
-  C:\Program Files\Mozilla Firefox;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\PROGRAMY\SIMULIA Abaqus\Commands;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\PROGRAMY\Git\cmd;D:\PROGRAMY\nodejs\;D:\PROGRAMY\XAMPP\php\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\PROGRAMY\Yarn\bin\;D:\PROGRAMY\MATLAB\R2014b\runtime\win64;D:\PROGRAMY\MATLAB\R2014b\bin;D:\PROGRAMY\MATLAB\R2014b\polyspace\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Szysz\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\PROGRAMY\XAMPP\php;C:\Users\Szysz\AppData\Roaming\npm;D:\PROGRAMY\MongoDB\Server\3.6\bin;C:\Users\Szysz\AppData\Local\Yarn\bin;
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\PROGRAMY\SIMULIA Abaqus\Commands;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\PROGRAMY\Git\cmd;D:\PROGRAMY\nodejs\;D:\PROGRAMY\XAMPP\php\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\PROGRAMY\Yarn\bin\;D:\PROGRAMY\MATLAB\R2014b\runtime\win64;D:\PROGRAMY\MATLAB\R2014b\bin;D:\PROGRAMY\MATLAB\R2014b\polyspace\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Szysz\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\PROGRAMY\XAMPP\php;C:\Users\Szysz\AppData\Roaming\npm;D:\PROGRAMY\MongoDB\Server\3.6\bin;C:\Users\Szysz\AppData\Local\Yarn\bin;;D:\PROGRAMY\Microsoft VS Code\bin
 
 Yarn version: 
   1.5.1
@@ -19,7 +19,7 @@ npm manifest:
     "version": "1.0.0",
     "description": "projekt na Internet Engineering",
     "main": "app.js",
-    "repository": "https://github.com/rszyszka/JS-Project.git",
+    "repository": "https://github.com/rszyszka/JS-BackendAPI.git",
     "author": "Rafal Szyszka",
     "license": "MIT",
     "private": false,
@@ -3344,16 +3344,10 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/yallist/-/yallist-2.1.2.tgz#1c11f9218f076089a47dd512f93c6699a6a81d52"
 
 Trace: 
-  Error: Command failed.
-  Exit code: 4294967295
-  Command: C:\WINDOWS\system32\cmd.exe
-  Arguments: /d /s /c node .
-  Directory: D:\NAUKA\Inżynieria Internetu\JS-Project
-  Output:
-  
-      at ProcessTermError.MessageError (D:\PROGRAMY\Yarn\lib\cli.js:186:110)
-      at new ProcessTermError (D:\PROGRAMY\Yarn\lib\cli.js:226:113)
-      at ChildProcess.<anonymous> (D:\PROGRAMY\Yarn\lib\cli.js:30281:17)
-      at ChildProcess.emit (events.js:159:13)
-      at maybeClose (internal/child_process.js:943:16)
-      at Process.ChildProcess._handle.onexit (internal/child_process.js:220:5)
+  Error: `install` has been replaced with `add` to add new dependencies. Run "yarn add cors" instead.
+      at new MessageError (D:\PROGRAMY\Yarn\lib\cli.js:186:110)
+      at Object.<anonymous> (D:\PROGRAMY\Yarn\lib\cli.js:21987:13)
+      at Generator.next (<anonymous>)
+      at step (D:\PROGRAMY\Yarn\lib\cli.js:98:30)
+      at D:\PROGRAMY\Yarn\lib\cli.js:109:13
+      at <anonymous>

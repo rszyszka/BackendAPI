@@ -1,6 +1,5 @@
 import mongoose, {Schema} from 'mongoose'
 
-// http://mongoosejs.com/docs/schematypes.html
 const bookSchema = new Schema({
     title: {
         type: String,

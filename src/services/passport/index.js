@@ -33,7 +33,7 @@ export const token = ({ required, roles = User.roles } = {}) => (req, res, next)
     })(req, res, next);
 
 passport.use('password', new BasicStrategy({passReqToCallback: true}, (req, email, password, done) => {
-    if(!email || !password) done(err);      // You can use more sophisticated checks here
+    if(!email || !password) done(err);      // I can use more sophisticated checks here
 
     User.findOne({ email }).then((user) => {
         if (!user) {

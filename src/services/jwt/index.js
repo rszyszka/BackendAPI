@@ -2,8 +2,6 @@ import jwt from 'jsonwebtoken';
 import Promise from 'bluebird';
 import { jwtSecret } from '../../config';
 
-// http://bluebirdjs.com/docs/api/promise.promisify.html
-
 const jwtSign = Promise.promisify(jwt.sign);
 const jwtVerify = Promise.promisify(jwt.verify);
 
